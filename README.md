@@ -6,7 +6,7 @@
 
 > BlussyMon Music Bot Project
 
-### 🏠 [Homepage](https://thenestdevs.github.com/blussymon/)
+### 🏠 [Homepage](https://thenestdevs.github.io/blussymon/)
 
 ## Install
 
