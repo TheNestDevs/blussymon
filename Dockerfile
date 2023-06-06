@@ -1,4 +1,4 @@
-FROM node:debian
+FROM node:18
 
 LABEL maintainer="Jyotirmoy Bandyopadhayaya <hi@b68.dev>";  
 LABEL version="1.0"
