@@ -1,12 +1,19 @@
 # Welcome to blussymon 
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
-[![Twitter: BRAVO68WEB](https://img.shields.io/twitter/follow/BRAVO68WEB.svg?style=social)](https://twitter.com/BRAVO68WEB)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/thenestdevs/blussymon/testing.yaml?logo=github&logoColor=blue&style=for-the-badge)
 
-> BlussyMon Music Bot Project
+> BlussyMon - Music Bot Project
 
 ### 🏠 [Homepage](https://thenestdevs.github.io/blussymon/)
+
+## Features 🦄
+
+- Slash Commands
+- Song queues
+- 100% Typescript
+- Discord.js v14
 
 ## Install
 
