@@ -1,0 +1,7 @@
+{
+  "name": "BlussyMon",
+  "description": "🤖 Discord Music Bot built with discord.js",
+  "repository": "https://github.com/TheNestDevs",
+  "logo": "https://github.com/TheNestDevs.png",
+  "keywords": ["discord", "discordjs", "typescript", "music", "bot"]
+}
