@@ -18,15 +18,5 @@ FROM base as build
 
 COPY --chown=${USER}:${USER}  . .
 RUN npm ci
-RUN npm run build
 
-RUN rm -rf node_modules && \
-    npm ci --omit=dev
-
-FROM node:${NODE_VERSION} as prod
-
-COPY --chown=${USER}:${USER} package*.json ./
-COPY --from=build --chown=${USER}:${USER} /home/evobot/node_modules ./node_modules
-COPY --from=build --chown=${USER}:${USER} /home/evobot/dist ./dist
-
-CMD [ "node", "./dist/index.js" ]
+CMD [ "yarn", "start" ]
